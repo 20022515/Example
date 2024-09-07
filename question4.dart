@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  var number = "7";
+  var number = "8";
   int n = int.parse(number);
   if (n < 2) {
     print("วันจันทร์");
@@ -16,6 +16,6 @@ void main(List<String> args) {
   } else if (n < 8) {
     print("วันอาทิตย์");
   } else {
-    print("กรุณาป้อนข้อมูลระหว่าง 1-7");
+    print("ข้อมูลไม่ถูกต้อง กรุณาป้อนข้อมูลระหว่าง 1-7");
   }
 }
