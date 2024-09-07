@@ -1,8 +1,14 @@
 void main(List<String> args) {
   var number = "10";
   int n = int.parse(number);
-  for (int i = 1; i <= n; i++) {
-    print(
-        '$i'); // จะพิมพ์ข้อความซ้ำไป 10 รอบ โดยเพิ่มค่าของ (n) ครั้งละ1 โดยพิมพ์เริ่มจาก ค่าของ (i) = 1
+  print("จำนวนตัวเลขคือ 1 ถึง $n");
+  {
+    int sum = 0;
+    int i = 1;
+    do {
+      sum += i;
+      i++;
+    } while (i <= 10);
+    print("ผลรวมของตัวเลขจาก 1 ถึง 10 คือ: $sum");
   }
 }
