@@ -1,6 +1,7 @@
 void main(List<String> args) {
-  double radius = 7.5;
-  double circlearea = 3.14 * (radius * radius);
+  var radius = "7.5";
+  double r = double.parse(radius);
+  double circlearea = 3.14 * (r * r);
   print("รัศมีวงกลม = $radius");
   print("พื้นที่วงกลม = $circlearea");
 }
